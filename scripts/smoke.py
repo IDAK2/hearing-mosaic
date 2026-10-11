@@ -28,7 +28,7 @@ COMMIT = DEPLOYMENT['sourceCommit']
 
 
 def account(number):
-    key = re.search(rf'^ACCOUNT_{number}_GENLAYER_PRIVATE_KEY\\s*=\\s*"?([^"\\r\\n]+)', ENV, re.M).group(1).strip()
+    key = re.search(rf'^ACCOUNT_{number}_GENLAYER_PRIVATE_KEY\s*=\s*"?([^"\r\n]+)', ENV, re.M).group(1).strip()
     return create_account(account_private_key=key)
 
 

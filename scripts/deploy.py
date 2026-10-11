@@ -9,7 +9,7 @@ from genlayer_py.chains import studionet
 
 ROOT = Path(__file__).parents[1]
 ENV = (ROOT.parents[3] / 'accounts.env').read_text()
-KEY = re.search(r'^ACCOUNT_7_GENLAYER_PRIVATE_KEY\\s*=\\s*"?([^"\\r\\n]+)', ENV, re.M).group(1).strip()
+KEY = re.search(r'^ACCOUNT_7_GENLAYER_PRIVATE_KEY\s*=\s*"?([^"\r\n]+)', ENV, re.M).group(1).strip()
 ACCOUNT = create_account(account_private_key=KEY)
 CLIENT = create_client(chain=studionet, account=ACCOUNT)
 CODE = (ROOT / 'contracts' / 'contract.py').read_text()
