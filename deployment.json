@@ -1,0 +1,12 @@
+{
+  "network": "StudioNet",
+  "account": "IDAK2",
+  "deployerAddress": "0xc8e8f5B7d61Da6eD160f474592627D65728b516e",
+  "contractAddress": "0xe838adf07997F960BD1B81CC3885319AC8AD7327",
+  "deploymentTransaction": "0xe5151920968739632982673f5716b26f2ecd3abfad8b93cdf0bb028d0a64a895",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "ef00380a93e1045928ae279302900fccaf9d3578e5165dc75781ef72385996de",
+  "sourceCommit": "e38b497889b23d29e0514dd9c76d2e1a5c434c86",
+  "repository": "https://github.com/IDAK2/hearing-mosaic"
+}

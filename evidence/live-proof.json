@@ -1,0 +1,65 @@
+{
+  "hearingId": "HEAR-1791756980",
+  "transactions": {
+    "open": "0x21ecf628c47167f9783bbf09d437181fb7c5bdf0f400e54fc0ce98c31c7ecfec",
+    "availability1": "0x776541ff5bc0b14a4f86bac78280fb5db6dcad6c2b194920929a2f001d4de232",
+    "availability3": "0xa811320c76f10df26145a4da1eb71d3922f9e716baa6d2a98c895fcae17b0fd5",
+    "availability4": "0x3017e23a14ba23985145cf5573aeb187411530a149b2643457d1b1b817260ed1",
+    "seat": "0x126608cfab14c8170283005117f16e4bfc17d73479f1b8febcaec1c938bcbb65"
+  },
+  "state": {
+    "assignment": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "deadline": 1791760582,
+    "digests": [
+      "c772515aa57c994300a2d6143771b5848ed1f0a551176bbd07c94140475b811b",
+      "1c3ad8213603be3dcc63534d32bd754a0d3a7ddbfa6223e2a352b6dd76de495f",
+      "7af7c66ca5198a0dbbcf1eaebae77f4544467d7af7cc635c8fa3fac7bf186b2f"
+    ],
+    "id": "HEAR-1791756980",
+    "owner": "0xc8e8f5B7d61Da6eD160f474592627D65728b516e",
+    "participants": [
+      "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+      "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+      "0x05C0cc3F433F6e296f18117f558FdB9043434793"
+    ],
+    "rows": [
+      {
+        "accommodation_code": 0,
+        "index": 0,
+        "slot_mask": 3
+      },
+      {
+        "accommodation_code": 1,
+        "index": 1,
+        "slot_mask": 2
+      },
+      {
+        "accommodation_code": 2,
+        "index": 2,
+        "slot_mask": 4
+      }
+    ],
+    "slots": [
+      "Tuesday 09:00",
+      "Tuesday 11:00",
+      "Wednesday 15:00"
+    ],
+    "state": "FULL",
+    "submission_count": 3,
+    "title": "Neighborhood access hearing"
+  },
+  "disclosure": "The participant wallets are operator-controlled role fixtures, not independent people."
+}

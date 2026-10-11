@@ -30,6 +30,6 @@ deployment = {
     'sourceSha256': hashlib.sha256(CODE.encode()).hexdigest(), 'sourceCommit': COMMIT,
     'repository': 'https://github.com/IDAK2/hearing-mosaic',
 }
-(ROOT / 'deployment.json').write_text(json.dumps(deployment, indent=2) + '\\n')
+(ROOT / 'deployment.json').write_text(json.dumps(deployment, indent=2) + '\n')
 print(json.dumps(deployment, indent=2), flush=True)
 
